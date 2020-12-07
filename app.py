@@ -18,9 +18,8 @@ def sms_reply():
     # Create reply
     resp = MessagingResponse()
     resp.message(reply)
-
+    print(str(resp))
     return str(resp)	
 
 if __name__ == "__main__":
     app.run(debug=True)
-    
