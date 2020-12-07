@@ -1,7 +1,7 @@
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "whatsapp-bot963-uklk-2b90645bba33.json"
 
-import dialogflow_v2 as dialogflow
+import dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
 PROJECT_ID = "whatsapp-bot963-uklk"
 
