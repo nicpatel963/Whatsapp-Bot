@@ -3,7 +3,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "whatsapp-bot963-uklk-2b90645bba3
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "nikubuntu-1"
+PROJECT_ID = "whatsapp-bot963-uklk"
 
 
 def detect_intent_from_text(text, session_id, language_code='en'):
