@@ -1,9 +1,9 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "whatsapp-bot963-uklk-2b90645bba33.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "jokes-ubcy-d57743ed8e79.json"
 
 import dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "whatsapp-bot963-uklk"
+PROJECT_ID = "jokes-ubcy"
 
 
 def detect_intent_from_text(text, session_id, language_code='en'):
